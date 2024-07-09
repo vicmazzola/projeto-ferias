@@ -1,3 +1,29 @@
 header {
     font-family: "PT Sans", sans-serif;
+    
+}
+
+
+.navbar-brand {
+    color: #000000; /* Cor do texto padrão */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+.navbar-brand:hover {
+    color: #df1010; /* Cor do texto quando o mouse está sobre o link */
+    
+}
+
+
+.navbar-nav .nav-link {
+    color: #000000; 
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #df1010; 
+}
+
+.dualshock {
+    border-radius: 100px;
 }
