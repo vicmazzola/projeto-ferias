@@ -28,3 +28,21 @@ header {
 .dualshock {
     border-radius: 100px;
 }
+
+.card {
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden; 
+}
+
+.card:hover {
+    transform: scale(1.02); 
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.02); 
+}
