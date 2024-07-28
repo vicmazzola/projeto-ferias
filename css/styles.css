@@ -63,7 +63,7 @@ header {
 }
 
 
-
+/* 
 
 .card {
     transition: transform 0.3s ease;
@@ -81,5 +81,5 @@ header {
 
 .card:hover img {
     transform: scale(1.02); 
-}
+} */
 
