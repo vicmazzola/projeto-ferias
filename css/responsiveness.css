@@ -1,7 +1,3 @@
-@media (max-width: 1200px) {
-
-}
-
 @media (max-width: 430px) {
     .header-fluid {
         display: flex;
@@ -16,4 +12,19 @@
     .titulo-medio {
         font-size: 1.50rem;
     }
+
+    .navbar-toggler {
+        margin-bottom: 15px; 
+    }
+
+    .navbar-toggler {
+        margin-top: 15px; 
+    }
+
+    .navbar-brand:hover {
+        color: white; 
+        
+    }
 }
+
+
