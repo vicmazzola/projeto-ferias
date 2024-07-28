@@ -1,0 +1,19 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 430px) {
+    .header-fluid {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .titulo-grande {
+        font-size: 1.75rem;
+    }
+    
+    .titulo-medio {
+        font-size: 1.50rem;
+    }
+}

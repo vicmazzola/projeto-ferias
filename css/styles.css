@@ -1,18 +1,21 @@
 header {
     font-family: "PT Sans", sans-serif;
-    background-color: #5252dbfe;
+    background-color: #5252DB ;
     
 }
 
+body {
+    background-color: #F9E2AF ;
+}
 
 .titulo-grande {
-    font-size: 2.5rem; 
+    font-size: 2rem; 
     font-weight: bold; 
     color: #ffffff; 
 }
 
 .titulo-medio {
-    font-size: 2rem; 
+    font-size: 1.75rem; 
     font-weight: bold; 
     color: #000000; 
 
@@ -25,11 +28,18 @@ header {
 
 }
 
+/* --------------------------- NAV BAR ------------------------------------------- */
+
 .navbar {
     margin: 0;
     padding: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between; /* Alinha o título e o menu hambúrguer nas extremidades */
+    align-items: center; /* Centraliza verticalmente */
 }
+
+
 
 .navbar-brand {
     color: #FFFFFF; 
@@ -63,7 +73,7 @@ header {
 }
 
 
-/* 
+
 
 .card {
     transition: transform 0.3s ease;
@@ -81,5 +91,5 @@ header {
 
 .card:hover img {
     transform: scale(1.02); 
-} */
+} 
 
