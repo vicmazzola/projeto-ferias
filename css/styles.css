@@ -6,6 +6,7 @@ header {
 
 body, html {
     overflow-x: hidden;
+    
 }
 
 body {
@@ -65,7 +66,7 @@ body {
     color: #000000; 
 }
 
-/* --------------------------- END NAV BAR ------------------------------------------- */
+/* --------------------------- END NAV BAR -------------------------------------- */
 
 
 .dualshock {
@@ -78,7 +79,7 @@ body {
     
 }
 
-
+/* --------------------------- CARDS ------------------------------------------- */
 
 
 .card {
@@ -99,3 +100,29 @@ body {
     transform: scale(1.02); 
 } 
 
+/* --------------------------- END CARDS ---------------------------------------- */
+
+
+/* --------------------------- FOOTER ------------------------------------------- */
+
+.custom-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;    
+    padding-bottom: 1rem; 
+    background-color: #5252DB;
+    color: white;
+    
+    
+
+}
+
+.custom-footer a {
+    color: white !important; /* Garante que os links também fiquem brancos */
+}
+
+
+
+/* --------------------------- END FOOTER ------------------------------------------- */
