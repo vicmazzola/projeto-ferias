@@ -1,4 +1,5 @@
-@media (max-width: 430px) {
+
+ @media (max-width: 430px) {
     .header-fluid {
         display: flex;
         flex-direction: column;
@@ -26,5 +27,3 @@
         
     }
 }
-
-
